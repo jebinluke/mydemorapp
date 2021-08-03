@@ -20,7 +20,7 @@ spec:
       containers:
       - name: myrapp-containers-demo
         # Docker Hub image to use
-        image: jebinluke89/myrapp
+        image: jebinluke89/myrapp:v1
         # Define ports to expose
         ports: 
         - containerPort: 80
